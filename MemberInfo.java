@@ -22,12 +22,13 @@ public class MemberInfo {
 
     /** Returns the graduation year of the club member. */
     public int getGradYear() {
-    /* implementation not shown */ }
+        return gradYear;
+    }
 
     /** Returns true if the member is in good standing and false
     otherwise. */
     public boolean inGoodStanding() {
-    /* implementation not shown */ }
+    return hasGoodStanding;}
     // There may be instance variables, constructors, and methods that are not
     // shown.
 }
